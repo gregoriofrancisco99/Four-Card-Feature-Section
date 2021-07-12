@@ -1,0 +1,19 @@
+#article-wrapper article:hover:first-child {
+  border: solid 0.125em hsl(180, 62%, 55%);
+  transform: scale(1.1);
+}
+
+#wrapper article:hover:first-child {
+  border: solid 0.125em hsl(0, 78%, 62%);
+  transform: scale(1.1);
+}
+
+#article-wrapper article:hover:last-child {
+  border: solid 0.125em hsl(212, 86%, 64%);
+  transform: scale(1.1);
+}
+
+#wrapper article:hover:last-child {
+  border: solid 0.125em hsl(34, 97%, 64%);
+  transform: scale(1.1);
+}
