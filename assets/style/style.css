@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(0, 0%, 98%);
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  font-family: "Poppins", sans-serif;
+}
+
+section header {
+  width: 55%;
+  margin: 0 auto;
+
+  text-align: center;
+  font-size: 0.95em;
+}
+header p {
+  margin: 1em 0;
+  padding: 0 6em;
+}
+
+p {
+  font-weight: 300;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  font-size: 2em;
+}
+h1 span {
+  font-weight: 100;
+}
+
+#article-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#article-wrapper article {
+  height: 15em;
+  padding: 1em 2em;
+
+  background: #fff;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  font-size: 0.85em;
+  border-radius: 0.27em;
+  transition: all 0.25s ease;
+  cursor: default;
+}
+#article-wrapper article,
+#wrapper {
+  width: 23.2%;
+}
+
+#wrapper {
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 0 2em;
+}
+#wrapper article {
+  width: 100%;
+}
+#article-wrapper article:first-child {
+  background: url("./../images/icon-supervisor.svg") no-repeat, #fff;
+  background-position: 90% 90%;
+  background-size: 15%;
+
+  border-top: solid 0.3em hsl(180, 62%, 55%);
+}
+
+#wrapper article:first-child {
+  background: url("./../images/icon-team-builder.svg") no-repeat, #fff;
+  background-position: 90% 90%;
+  background-size: 15%;
+
+  border-top: solid 0.3em hsl(0, 78%, 62%);
+}
+
+#article-wrapper article:last-child {
+  background: url("./../images/icon-calculator.svg") no-repeat, #fff;
+  background-position: 90% 90%;
+  background-size: 15%;
+
+  border-top: solid 0.3em hsl(212, 86%, 64%);
+
+  margin: 2em 0;
+}
+
+#wrapper article:last-child {
+  background: url("./../images/icon-karma.svg") no-repeat, #fff;
+  background-position: 90% 90%;
+  background-size: 15%;
+
+  border-top: solid 0.3em hsl(34, 97%, 64%);
+}

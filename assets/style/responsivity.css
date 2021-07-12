@@ -1,0 +1,81 @@
+@media (max-width: 375px) {
+  main {
+    width: 90%;
+    height: auto;
+
+    margin: auto;
+  }
+
+  section {
+    height: auto;
+    justify-content: center;
+  }
+
+  section header {
+    width: 100%;
+    margin-top: 2.5em;
+    font-size: 0.9em;
+  }
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  header p {
+    padding: 0;
+    margin-bottom: 6em;
+  }
+
+  #article-wrapper {
+    flex-direction: column;
+  }
+
+  #article-wrapper article {
+    height: 15em;
+    padding: 1em 2em;
+  }
+
+  #article-wrapper article,
+  #wrapper {
+    width: 100%;
+  }
+
+  #wrapper {
+    margin: 0;
+  }
+
+  #article-wrapper article:first-child {
+    background: url("./../images/icon-supervisor.svg") no-repeat, #fff;
+    background-position: 90% 90%;
+    background-size: 15%;
+
+    border-top: solid 0.3em hsl(180, 62%, 55%);
+  }
+
+  #wrapper article:first-child {
+    background: url("./../images/icon-team-builder.svg") no-repeat, #fff;
+    background-position: 90% 90%;
+    background-size: 15%;
+
+    border-top: solid 0.3em hsl(0, 78%, 62%);
+  }
+
+  #article-wrapper article:last-child {
+    background: url("./../images/icon-calculator.svg") no-repeat, #fff;
+    background-position: 90% 90%;
+    background-size: 15%;
+
+    border-top: solid 0.3em hsl(212, 86%, 64%);
+  }
+
+  #wrapper article:last-child {
+    background: url("./../images/icon-karma.svg") no-repeat, #fff;
+    background-position: 90% 90%;
+    background-size: 15%;
+
+    border-top: solid 0.3em hsl(34, 97%, 64%);
+  }
+
+  article {
+    margin-bottom: 2em;
+  }
+}
